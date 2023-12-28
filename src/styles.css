@@ -1,8 +1,18 @@
+:root {
+  --primary-color: #f9f7fe;
+  --default-font: 'Poppins', sans-serif;
+  --heading-font: 'Playfair Display', serif;
+}
+
 body {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--default-font);
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--heading-font);
+}
+
+.hero {
+  background-color: var(--primary-color);
+  text-align: center;
 }
