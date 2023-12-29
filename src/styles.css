@@ -50,7 +50,7 @@ img {
   font-size: 18px;
 }
 
-.header-button:hover {
+.default-button:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
