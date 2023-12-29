@@ -119,4 +119,36 @@ img {
   .app-info {
     text-align: center;
   }
+
+  .app-heading {
+    font-size: 50px;
+  }
+
+  .hero {
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 30px;
+  }
+
+  .intro-text {
+    margin: 50px;
+  }
+
+  .contact-me {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .contact-heading {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .contact-text {
+    margin: 20px;
+  }
 }
