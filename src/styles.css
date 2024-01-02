@@ -48,12 +48,14 @@ img {
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 18px;
+  display: inline-block;
 }
 
 .default-button:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
+  text-decoration: none;
 }
 
 .intro-text {
@@ -63,7 +65,7 @@ img {
 }
 
 .app-row {
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 .app-heading {
@@ -115,6 +117,34 @@ img {
   opacity: 0.7;
 }
 
+.about-hero {
+  background-color: var(--primary-color);
+  padding: 100px;
+  padding-bottom: 150px;
+}
+
+.heading-small {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.about-intro-text {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.about-sub-heading {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  margin: 25px 0px;
+}
+
+.portrait {
+  max-width: 50%;
+}
+
 @media (max-width: 576px) {
   .app-info {
     text-align: center;
@@ -150,5 +180,14 @@ img {
 
   .contact-text {
     margin: 20px;
+  }
+
+  .about-hero {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .portrait {
+    max-width: 100%;
   }
 }
