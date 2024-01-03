@@ -135,7 +135,7 @@ img {
   opacity: 0.7;
 }
 
-.about-sub-heading {
+.sub-heading {
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
@@ -164,6 +164,15 @@ img {
   line-height: 21px;
   text-align: center;
   opacity: 0.7;
+}
+
+.contact-method {
+  margin: 50px;
+  line-height: 1px;
+}
+
+.personal-contact {
+  font-size: 14px;
 }
 
 @media (max-width: 576px) {
