@@ -20,7 +20,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Beth Jones portfolio homepage</title>
+    <meta
+      name="description"
+      content="Homepage for Beth Jones' portfolio, listing the work and contact details for the frontend developer."
+    />
+    <title>Beth Jones portfolio homepage - SheCodes</title>
   </head>
   <body>
     <div class="container">
@@ -28,25 +32,25 @@
         <img
           class="logo"
           src="/images/logosheCodes_logo.png"
-          alt="shecodes logo"
+          alt="SheCodes logo"
         />
         <img
           class="logo-small"
           src="/images/logo_small.png"
-          alt="shecodes small logo"
+          alt="SheCodes small logo"
         />
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="homepage-link">Home</a>
           </li>
           <li>
-            <a href="/about-me.html">About</a>
+            <a href="/about-me.html" title="about-page link">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="work-page link">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="contact-page link">Contact</a>
           </li>
         </ul>
       </nav>
@@ -56,27 +60,35 @@
       <h1>Beth Jones</h1>
       <h3>Frontend Developer, based in London</h3>
       <br />
-      <a class="default-button" href="about-me.html">Get Started</a>
+      <a class="default-button" href="about-me.html" title="about-page link"
+        >Get Started</a
+      >
     </div>
     <div class="intro-text">Featured projects that I have built.</div>
     <div class="container">
       <div class="row app-row">
         <img
           class="col-lg-6 img-fluid d-none d-lg-block"
-          src="/images/filler-img.jpg"
-          alt="Image of weather app"
+          src="/images/renewable-energy-website.png"
+          alt="Image of Renewable energy website"
         />
         <div class="col-lg-6 app-info">
-          <div class="app-heading">Weather app</div>
+          <div class="app-heading">Renewable Energy Website</div>
           <div class="app-text-body">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </div>
-          <a class="btn inverse-button" href="#">View project</a>
+          <a
+            class="btn inverse-button"
+            href="https://github.com/btj43/Renewable-Energy-Landing-Page"
+            title="renewable energy website github repository link"
+            >View project</a
+          >
         </div>
       </div>
+
       <br />
       <div class="row app-row">
         <div class="col-lg-6 app-info">
@@ -87,30 +99,40 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </div>
-          <a class="btn inverse-button" href="#">View project</a>
+          <a
+            class="btn inverse-button"
+            href="https://github.com/btj43/coding...my-journey"
+            title="my coding journey website github repository link"
+            >View project</a
+          >
         </div>
         <img
-          class="col-lg-6 img-fluid d-none d-lg-block"
-          src="/images/filler-img.jpg"
-          alt="Image of weather app"
+          class="col-lg-6 img-fluid d-none d-lg-block home-app-img"
+          src="/images/coding-journey.png"
+          alt="Image of coding journey"
         />
       </div>
       <br />
       <div class="row app-row">
         <img
-          class="col-lg-6 img-fluid d-none d-lg-block"
-          src="/images/filler-img.jpg"
+          class="col-lg-6 img-fluid d-none d-lg-block home-app-img"
+          src="/images/weather-app.png"
           alt="Image of weather app"
         />
         <div class="col-lg-6 app-info">
-          <div class="app-heading">Renewable Energy Website</div>
+          <div class="app-heading">Weather app</div>
           <div class="app-text-body">
             Far far away, behind the word mountains, far from the countries
             Vokalia and Consonantia, there live the blind texts. Separated they
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </div>
-          <a class="btn inverse-button" href="#">View project</a>
+          <a
+            class="btn inverse-button"
+            href="https://superlative-alfajores-ec75b8.netlify.app/"
+            title="weather app direct link"
+            >View project</a
+          >
         </div>
       </div>
     </div>
@@ -125,6 +147,48 @@
           <a class="default-button" href="contact.html">Contact me</a>
         </div>
       </div>
+      <footer>
+        <a class="footer-email" href="mailto:bethjones543@gmail.com"
+          >bethjones543@gmail.com</a
+        >
+        <br />
+        <br />
+        <ul>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.facebook.com"
+              title="link to facebook"
+              ><img
+                src="/images/fb-icon.png"
+                class="img-fluid"
+                alt="Facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.instagram.com"
+              title="link to instagram"
+              ><img
+                src="/images/instagram-icon.png"
+                class="img-fluid"
+                alt="Instagram icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.twitter.com"
+              title="link to twitter"
+              ><img
+                src="/images/twitter-icon.png"
+                class="img-fluid"
+                alt="twitter icon"
+            /></a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>

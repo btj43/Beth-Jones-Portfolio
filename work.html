@@ -20,7 +20,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Beth Jones portfolio homepage</title>
+    <meta
+      name="description"
+      content="Work page for Beth Jones' portfolio, List of projects the frontend developer has been working on recently."
+    />
+    <title>Beth Jones portfolio work page</title>
   </head>
   <body>
     <div class="container">
@@ -28,25 +32,25 @@
         <img
           class="logo"
           src="/images/logosheCodes_logo.png"
-          alt="shecodes logo"
+          alt="SheCodes logo"
         />
         <img
           class="logo-small"
           src="/images/logo_small.png"
-          alt="shecodes small logo"
+          alt="SheCodes small logo"
         />
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="homepage-link">Home</a>
           </li>
           <li>
-            <a href="/about-me.html">About</a>
+            <a href="/about-me.html" title="about-page link">About</a>
           </li>
           <li class="active">
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="work-page link">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="contact-page link">Contact</a>
           </li>
         </ul>
       </nav>
@@ -60,21 +64,21 @@
         <div class="col-lg-6 app-info">
           <img
             class="img-fluid"
-            src="/images/filler-img.jpg"
-            alt="Image of weather app"
-            onclick="window.location='#Github'"
+            src="/images/coding-journey.png"
+            alt="Image of my journey to code website"
+            onclick="window.location='https://github.com/btj43/coding...my-journey'"
           />
-          <div class="project-title">Weather app</div>
+          <div class="project-title">My journey to code</div>
           <div class="project-role">Frontend Developer</div>
         </div>
         <div class="col-lg-6 app-info">
           <img
             class="img-fluid"
-            src="/images/filler-img.jpg"
-            alt="Image of weather app"
-            onclick="window.location='#Github'"
+            src="/images/renewable-energy-website.png"
+            alt="Image of renewable energy website"
+            onclick="window.location='https://github.com/btj43/Renewable-Energy-Landing-Page'"
           />
-          <div class="project-title">My journey to code</div>
+          <div class="project-title">Renewable Energy Website</div>
           <div class="project-role">Frontend Developer</div>
         </div>
       </div>
@@ -82,21 +86,21 @@
         <div class="col-lg-6 app-info">
           <img
             class="img-fluid"
-            src="/images/filler-img.jpg"
+            src="/images/weather-app.png"
             alt="Image of weather app"
-            onclick="window.location='#Github'"
+            onclick="window.location='https://superlative-alfajores-ec75b8.netlify.app/'"
           />
-          <div class="project-title">Renewable Energy Website</div>
+          <div class="project-title">Weather app</div>
           <div class="project-role">Frontend Developer</div>
         </div>
         <div class="col-lg-6 app-info">
           <img
             class="img-fluid"
-            src="/images/filler-img.jpg"
-            alt="Image of weather app"
-            onclick="window.location='#Github'"
+            src="/images/croissants.png"
+            alt="Image of croissants webpage"
+            onclick="window.location='https://bejewelled-mousse-ce82fb.netlify.app/'"
           />
-          <div class="project-title">My journey to code</div>
+          <div class="project-title">Croissants website</div>
           <div class="project-role">Frontend Developer</div>
         </div>
       </div>
@@ -110,9 +114,59 @@
           <div class="contact-text">Lets work together and I'll help you.</div>
         </div>
         <div class="col-lg-4">
-          <a class="default-button" href="contact.html">Contact me</a>
+          <a
+            class="default-button"
+            href="contact.html"
+            title="contact-page link"
+            >Contact me</a
+          >
         </div>
       </div>
+      <footer>
+        <a
+          class="footer-email"
+          href="mailto:bethjones543@gmail.com"
+          title="link to Beth Jones email address"
+          >bethjones543@gmail.com</a
+        >
+        <br />
+        <br />
+        <ul>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.facebook.com"
+              title="link to facebook"
+              ><img
+                src="/images/fb-icon.png"
+                class="img-fluid"
+                alt="Facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.instagram.com"
+              title="link to instagram"
+              ><img
+                src="/images/instagram-icon.png"
+                class="img-fluid"
+                alt="Instagram icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.twitter.com"
+              title="link to twitter"
+              ><img
+                src="/images/twitter-icon.png"
+                class="img-fluid"
+                alt="Twitter icon"
+            /></a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>

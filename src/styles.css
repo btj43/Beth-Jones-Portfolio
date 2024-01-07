@@ -1,8 +1,8 @@
 :root {
   --primary-color: #f9f7fe;
   --secondary-color: #6c63ff;
-  --default-font: 'Poppins', sans-serif;
-  --heading-font: 'Playfair Display', serif;
+  --default-font: "Poppins", sans-serif;
+  --heading-font: "Playfair Display", serif;
   --default-font-color: #272142;
 }
 
@@ -107,7 +107,6 @@ img {
   font-size: 48px;
   font-weight: 700;
   font-family: var(--heading-font);
-  line-height: 100px;
 }
 
 .contact-text {
@@ -211,6 +210,39 @@ nav li.active a {
   display: none;
 }
 
+footer {
+  margin: 50px;
+}
+
+.footer-email {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--default-font-color);
+}
+
+.footer-email:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+footer {
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+  margin: 10px;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+}
+
+footer li a {
+  margin: 10px;
+}
+
 @media (max-width: 576px) {
   .app-info {
     text-align: center;
@@ -256,6 +288,7 @@ nav li.active a {
 
   .portrait {
     max-width: 100%;
+    margin-top: 30px;
   }
 
   .heading-small {
@@ -278,5 +311,19 @@ nav li.active a {
   nav li {
     font-size: 14px;
     font-weight: 500;
+  }
+
+  .footer-email {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-me {
+    text-align: center;
+  }
+
+  .contact-text {
+    margin-bottom: 20px;
   }
 }

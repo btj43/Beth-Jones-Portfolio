@@ -20,7 +20,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Beth Jones further information</title>
+    <meta
+      name="description"
+      content="About page for Beth Jones' portfolio, getting to know the frontend developer who's based in London."
+    />
+    <title>Beth Jones portfolio further information</title>
   </head>
   <body>
     <div class="container">
@@ -28,25 +32,25 @@
         <img
           class="logo"
           src="/images/logosheCodes_logo.png"
-          alt="shecodes logo"
+          alt="SheCodes logo"
         />
         <img
           class="logo-small"
           src="/images/logo_small.png"
-          alt="shecodes small logo"
+          alt="SheCodes small logo"
         />
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="homepage-link">Home</a>
           </li>
           <li class="active">
-            <a href="/about-me.html">About</a>
+            <a href="/about-me.html" title="about-page link">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="work-page link">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="contact-page link">Contact</a>
           </li>
         </ul>
       </nav>
@@ -64,11 +68,13 @@
               keep focus.
             </div>
             <br />
-            <a class="default-button" href="/work.html">View all projects</a>
+            <a class="default-button" href="/work.html" title="work page link"
+              >View all projects</a
+            >
           </div>
           <img
             src="/images/portrait-test.jpg"
-            alt="Beth Jones Image"
+            alt="Portrait Image"
             class="col-lg-6 img-fluid app-row portrait"
           />
         </div>
@@ -81,9 +87,59 @@
           <div class="contact-text">Lets work together and I'll help you.</div>
         </div>
         <div class="col-lg-4">
-          <a class="default-button" href="contact.html">Contact me</a>
+          <a
+            class="default-button"
+            href="contact.html"
+            title="contact details link"
+            >Contact me</a
+          >
         </div>
       </div>
+      <footer>
+        <a
+          class="footer-email"
+          href="mailto:bethjones543@gmail.com"
+          title="link to Beth Jones email address"
+          >bethjones543@gmail.com</a
+        >
+        <br />
+        <br />
+        <ul>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.facebook.com"
+              title="link to facebook"
+              ><img
+                src="/images/fb-icon.png"
+                class="img-fluid"
+                alt="Facebook icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.instagram.com"
+              title="link to instagram"
+              ><img
+                src="/images/instagram-icon.png"
+                class="img-fluid"
+                alt="Instagram icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              class="social-icons"
+              href="https://www.twitter.com"
+              title="link to twitter"
+              ><img
+                src="/images/twitter-icon.png"
+                class="img-fluid"
+                alt="Twitter icon"
+            /></a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
