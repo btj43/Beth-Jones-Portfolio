@@ -243,6 +243,16 @@ footer li a {
   margin: 10px;
 }
 
+.coded-link {
+  opacity: 0.7;
+  color: var(--secondary-color);
+}
+
+.coded-link:hover {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+
 @media (max-width: 576px) {
   .app-info {
     text-align: center;
